@@ -1,0 +1,28 @@
+# Created by https://www.gitignore.io/api/jekyll
+# Edit at https://www.gitignore.io/?templates=jekyll
+
+### Jekyll ###
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# End of https://www.gitignore.io/api/jekyll
+
+*.gem
+*.sublime-project
+*.sublime-workspace
+.bundle
+.DS_Store
+.netlify
+_asset_bundler_cache
+codekit-config.json
+example/_site
+Gemfile.lock
+package-lock.json
+node_modules
+npm-debug.log*
+test
+docs
+.idea
+vendor/bundle

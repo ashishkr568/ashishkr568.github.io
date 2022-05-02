@@ -1,0 +1,13 @@
+# main links
+main:
+  - title: "About Me"
+    url: /
+  - title: "Projects"
+    url: /projects
+  - title: "Blog"
+    url: /blog
+#  - title: "Archive"
+#    url: /archive
+  - title: "Resume"
+    url: /resume
+

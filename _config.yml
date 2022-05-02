@@ -1,0 +1,360 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
+
+# Theme Settings
+#
+# Review documentation to determine if you should use `theme` or `remote_theme`
+# https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
+
+# theme                  : "minimal-mistakes-jekyll"
+# remote_theme           : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Site Settings
+locale                   : "en-US"
+title                    : "Ashish Kumar"
+title_separator          : "|"
+subtitle                 : "Smile you are alive!"
+name                     : "Ashish Kumar"
+description              : "Portfolio | Blog |Resume"
+url                      : "https://ashishkr568.github.io"
+baseurl                  : # "/blog.ico"
+repository               : "ashishkr568/ashishkr568.github.io"
+teaser                   : #"/assets/images/pages/teaser-default.jpg"
+logo                     : "/assets/images/pages/thh_biege.png"
+masthead_title           : # "The Half Human"
+breadcrumbs              : # false # true, false (default)
+words_per_minute         : 250
+comments:
+  provider               : false # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+  disqus:
+    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+  discourse:
+    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+  facebook:
+    # https://developers.facebook.com/docs/plugins/comments
+    appid                :
+    num_posts            : # 5 (default)
+    colorscheme          : # "light" (default), "dark"
+  utterances:
+    theme                : # "github-light" (default), "github-dark"
+    issue_term           : # "pathname" (default)
+staticman:
+  allowedFields          :  ['name', 'email', 'url', 'message']
+  branch                 :  "main"
+  commitMessage          :  "New comment by {fields.name}"
+  filename               :  comment-{@timestamp}
+  format                 :  "yml"
+  moderation             : # true
+  path                   :  "/_data/comments/{options.slug}"
+  requiredFields         :  ['name', 'email', 'message']
+  transforms:
+    email                :  "md5"
+  generatedFields:
+    date:
+      type               :  "date"
+      options:
+        format           :  "iso8601" #(default), "timestamp-seconds", "timestamp-milliseconds"
+  endpoint               :  "https://staticcommentbot.herokuapp.com/v2/entry/" # URL of your own deployment with trailing slash, will fallback to the public instance
+reCaptcha:
+  siteKey                :  "6Le9JZ8fAAAAAKNfoaWCJSw54UkvQtlCdr5LepfB"
+  secret                 :  "ebVZM4JBDh4MaDmgsWreSf2idPFbAYlg0l5VVTiZGbR1e1uA0rrQ9UBtkNGjYZe5Zb3G4sxi4u3Zo+zNmnURIYYvg63ys6B8mkn7kji1L3qUu0+wsdowuxDvxHm1nDRSxVDAhG7if0URuSKelfU0YfbPQw1/nTVvRXAfud0eW4a7ULYt+s8r0ywHgv4R2L64/IYuD1qR3ykiDxNysNauC8ep+UJskbLcRtluSKBFLVXl3fszUfBHRdOvGeNuzX65c1sQXTmcpkx5uHDVAeFUWMikWz3TMJjhuYJiXAcgPg6x6t7lqfx5Xf/B0m4Z7N5EmTR2nvGdYnmbix9NPD3BmA=="
+atom_feed:
+  path                   : # blank (default) uses feed.xml
+feed_title               : "Ashish Kumar's Blog"
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
+search_provider          : lunr # google # lunr (default), algolia, google
+algolia:
+  application_id         : # YOUR_APPLICATION_ID
+  index_name             : # YOUR_INDEX_NAME
+  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
+  powered_by             : # true (default), false
+  nodes_to_index         : # "blockquote,li,h2,h3,p:not(.exclude-from-search)"
+google:
+  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
+  instant_search         : # false (default), true
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+yandex_site_verification :
+naver_site_verification  :
+
+
+# Social Sharing
+twitter:
+  username               :
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
+linkedin:
+  username               : "ashish568"
+og_image                 : /assets/images/pages/social.jpg
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links: # An array of links to social media profiles
+    - https://www.linkedin.com/in/ashish568
+    - https://github.com/ashishkr568
+    - https://medium.com/@ashish.568
+
+
+# Twitter Feed
+twitter_format: 'New blog post: "@title" @url@tags'
+twitter_url_length: 22
+twitter_max_length: 280 
+
+
+# Analytics
+analytics:
+  provider               : google-gtag #"false" # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id          : "G-8HG72XRXLD" # "UA-1931812-1"
+    anonymize_ip         : # true, false (default)
+
+
+# Site Author
+author:
+  name             : "Ashish Kumar"
+  avatar           : "/assets/images/pages/bio-photo.png"
+  bio              : <p>Data Scientist | Traveller | <br> Trekker | Dog Father</p>
+  location         : Pune, India
+  location_url     : https://en.wikipedia.org/wiki/Pune
+
+  links:
+    - label: "Open for opportunities"
+      icon: "fas fa-fw fa-briefcase"
+      url: ""
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:ashishkr.568@gmail.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/ashish568/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ashishkr568"
+    - label: "Medium"
+      icon: "fab fa-fw fa-medium"
+      url: "https://medium.com/@ashish.568"
+
+
+# Site Footer
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/ashish568/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ashishkr568"
+    - label: "Medium"
+      icon: "fab fa-fw fa-medium"
+      url: "https://medium.com/@ashish.568"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/"
+
+#  license:
+#    url: "/license" # to your licenses page or any other you want.
+#    code:
+#      icon: "fab fa-osi"
+#    content:
+#      icon1: "fab fa-creative-commons"
+#      icon2: "fab fa-creative-commons-by"
+#      icon3: "fab fa-creative-commons-nc"
+#      icon4: "fab fa-creative-commons-sa"
+
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+  - _redirects
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - .jekyll-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README.*
+  - staticman.yml
+  - tmp
+  - TODO.*
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
+  - /resources # different files I use for the blog and the web.
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+future: false
+
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+  math_engine: mathjax
+  math_engine_opts: # more info: https://kramdown.gettalong.org/math_engine/mathjax.html
+    preview: false
+    preview_as_code: false 
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+
+# Outputting
+permalink: /blog/:year/:month/:day/:title/
+paginate: 10 # amount of posts to show
+paginate_path: /blog/page:num/
+timezone: "Asia/Calcutta" # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jemoji
+  - jekyll-include-cache
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jemoji
+  - jekyll-include-cache
+
+
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path>/my-awesome-category/index.html ~> path: /
+category_archive:
+  type: jekyll-archives
+  path: /archive/categories/
+tag_archive:
+  type: jekyll-archives
+  path: /archive/tags/
+# https://github.com/jekyll/jekyll-archives
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+    - year
+    - month
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+    year: archive-taxonomy-year
+    month: archive-taxonomy-month
+  permalinks:
+    category: /archive/categories/:name/
+    tag: /archive/tags/:name/
+    year: /archive/:year/
+    month: /archive/:year/:month/
+
+
+# HTML Compression
+# - https://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      header:
+        show_overlay_excerpt: false
+      is_post: true
+      share: twitter --twitter-hashtags
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      header:
+        show_overlay_excerpt: false
+      is_post: true
+      share: twitter --twitter-hashtags
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
