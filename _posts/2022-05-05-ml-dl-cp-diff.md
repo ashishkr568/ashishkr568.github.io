@@ -19,15 +19,7 @@ tags:
   
 Machine learning model in general terms is more like regular programming which gets the computer to complete a specific task.  
 A very simple machine learning model looks like the one below.  
-  
-[//]: # ({% mermaid %}  )
-
-[//]: # (graph LR;  )
-
-[//]: # (    Inputs-->Program-->Results;  )
-
-[//]: # ({% endmermaid %}  )
-  
+   
 Let's take a very simple program where we need to sort an array. Here we provide the input as an unsorted array to the program and get the output as a sorted array.   
   
 The main thing to note over here is that our minds can formulate the exact steps required to sort this array.  
