@@ -3,6 +3,7 @@ layout: single
 classes: wide  
 title: Difference Between Machine Learning or Deep Learning Model and a normal computer program?  
 date: 2022-05-05 14:05:00 +05:30  
+excerpt: Test excerpt
 header:  
   teaser: assets/images/blog/computer-program-ml-dl-compare.jpg  
   caption: Image Credits Unsplash  
