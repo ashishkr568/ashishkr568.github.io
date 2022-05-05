@@ -80,7 +80,8 @@ group :jekyll_plugins do
   gem "html-proofer"  
   gem "jekyll-archives"
   gem "jekyll-include-cache"
-  gem "rake" 
+  gem "rake"
+  gem "jekyll-mermaid"
   gem "liquid-c" # allow to build Jekyll faster.
 end
 

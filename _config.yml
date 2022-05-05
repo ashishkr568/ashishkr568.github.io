@@ -276,6 +276,8 @@ whitelist:
   - jemoji
   - jekyll-include-cache
 
+mermaid:
+  src: 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js'
 
 # Archives
 #  Type
