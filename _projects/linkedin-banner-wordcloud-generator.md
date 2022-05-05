@@ -4,7 +4,7 @@ classes: wide
 collection: projects
 title: Wordcloud Generator
 subtitle: LinkedIn Banner Word Cloud Generator
-date: 2022-05-02 00:02:33 +05:30
+date: 2022-05-05 18:00:33 +05:30
 header:
   teaser: assets/images/blog/linkedin-word-cloud.png
 ---
