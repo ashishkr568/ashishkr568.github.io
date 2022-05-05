@@ -2,12 +2,12 @@
 layout: single
 classes: wide
 collection: projects
-title: Wordcloud Generator
-subtitle: LinkedIn Banner Word Cloud Generator
+title: Cover Letter Generator
+subtitle: Generate Cover Letters
 date: 2022-05-05 18:00:33 +05:30
 header:
-  teaser: assets/images/blog/linkedin-word-cloud.png
+  teaser: assets/images/projects/cover-letter-generator.jpg
 ---
-<img src="/assets/images/blog/linkedin-word-cloud.png" alt="LinkedIn Wordcloud" style=" display: block; margin-left: auto; margin-right: auto;"/>
+<img src="/assets/images/projects/cover-letter-generator.jpg" alt="pdf-metadata-addition" style=" display: block; margin-left: auto; margin-right: auto;"/>
 
-This project is to generate skills wordcloud.
+This project is for generation of cover letters.
