@@ -71,7 +71,7 @@
 <meta property="og:locale" content="{{ site.locale | replace: "-", "_" | default: "en_US" }}">
 <meta property="og:site_name" content="{{ site.title }}">
 
-{% if page.title == "About Me" %)
+{% if site.title == "About Me" %)
 <meta property="og:title" content="Ashish Kumar">
 {% else %}
 <meta property="og:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
