@@ -94,7 +94,7 @@ facebook:
   publisher              :
 linkedin:
   username               : "ashish568"
-og_image                 : /assets/images/pages/social-logo.jpg
+og_image                 : /assets/images/pages/social-self.jpg
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
