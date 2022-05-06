@@ -94,7 +94,7 @@ facebook:
   publisher              :
 linkedin:
   username               : "ashish568"
-og_image                 : /assets/images/pages/social.jpg
+og_image                 : /assets/images/pages/social-logo.jpg
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -276,8 +276,6 @@ whitelist:
   - jemoji
   - jekyll-include-cache
 
-mermaid:
-  src: 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js'
 
 # Archives
 #  Type

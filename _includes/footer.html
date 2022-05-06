@@ -40,6 +40,7 @@
     {% if lcontent.label %} {{ lcontent.label }} {% endif %}</a> | 
   {% endif %}</a>
   {% if site.repository %}
-    <a class="text-muted" href="https://github.com/{{ site.repository }}"><i class="fas fa-code text-muted" aria-hidden="true"></i> Source Code</a> | 
-  {% endif %}{{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a>, <a href="https://www.netlify.com" rel="nofollow">Netlify</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.
+<!--    <a class="text-muted" href="https://github.com/{{ site.repository }}"><i class="fas fa-code text-muted" aria-hidden="true"></i> Source Code</a> | -->
+  |
+  {% endif %}{{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.
 </div>
