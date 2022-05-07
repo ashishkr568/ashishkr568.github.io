@@ -2,7 +2,7 @@
 layout: single  
 classes: wide  
 title: Is your Machine Learning model serving the right purpose? 
-date: 2022-05-07 07:05:00 +05:30  
+date: 2022-05-05 18:05:00 +05:30  
 header:  
   teaser: assets/images/blog/ml-purpose.jpg  
   caption: Image Credits Unsplash  
