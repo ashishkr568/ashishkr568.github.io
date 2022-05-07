@@ -290,7 +290,7 @@ Develop a chatbot to answer queries related to credit insurance to reduce load o
 </table>
 
 ### DOWNLOAD RESUME
-[Click Here](/pdf/Ashish_Data_Scientist.pdf) to download concise version of the below resume. 
+[Click Here](/pdf/Ashish_Data_Scientist.pdf) to download concise version of the above resume in the below format. 
 
 <iframe width="100%" height="650em" 
 src="/pdf/Ashish_Data_Scientist.pdf" frameborder="0" allowfullscreen></iframe>
