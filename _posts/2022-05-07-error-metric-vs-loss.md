@@ -2,7 +2,7 @@
 layout: single  
 classes: wide  
 title: Are error metrics and loss the same during model training? 
-date: 2022-05-07 12:00:00 +05:30  
+date: 2022-05-07 11:55:00 +05:30  
 header:  
   teaser: assets/images/blog/error-metric.jpg  
   caption: Image Credits Unsplash  
