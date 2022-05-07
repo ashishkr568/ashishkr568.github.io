@@ -11,7 +11,7 @@ categories:
 tags:  
  - machine learning  
  - deep learning   
- - Artificial Intelligence  
+ - artificial intelligence  
 ---  
 <img src="/assets/images/blog/ml-purpose.jpg" alt="Difference Between ML and Computer Program" style="width:10%, height:10%; display: block; margin-left: auto; margin-right: auto;"/>  
 <br> In my earlier blog, we looked at the similarities and differences between our machine learning or deep learning model and regular computer program. If you have not gone through it, I would request you to go through it by clicking [here](/blog/2022/05/05/computer-program-ml-dl-compare/).

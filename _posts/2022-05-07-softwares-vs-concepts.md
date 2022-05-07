@@ -11,7 +11,7 @@ categories:
 tags:  
  - machine learning  
  - deep learning   
- - Artificial Intelligence 
+ - artificial intelligence 
  - software
  - concepts
  - knowledge
