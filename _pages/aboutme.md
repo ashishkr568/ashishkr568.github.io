@@ -13,7 +13,9 @@ redirect_from:
 {% include figure image_path="/assets/images/pages/about-me.jpeg" alt="myself" %}{: .align-left} 
 **Welcome, people from the digital world !!**{: .x-large} 
 
-This is Ashish. I am a Data Scientist with experience in providing insightful data-driven solutions to customers in multiple domains such as energy, media, networking, healthcare and construction.  These end to end solutions includes data mining, ETL tasks, data exploration/visualization, predictive modelling (using statistical methods and machine learning algorithms), model deployment and its maintenance/retraining. I am someone who likes to get their hands dirty building stuff rather than spending several years learning abstract concepts.
+This is Ashish. I am a Data Scientist with experience in providing insightful data-driven solutions to customers in multiple domains such as energy, media, networking, healthcare and construction.  These end to end solutions includes data mining, ETL tasks, data exploration/visualization, predictive modelling (using statistical methods and machine learning algorithms), model deployment and its maintenance/retraining.
+
+I am someone who likes to get their hands dirty building stuff rather than spending several years learning abstract concepts.
 
 I earned my Bachelor of Technology(BTech) degree in Electrical Engineering in 2011 from  [Dr A.P.J. Abdul Kalam Technical University, Lucknow, India](https://aktu.ac.in/) (formerly Uttar Pradesh Technical University).
 

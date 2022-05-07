@@ -42,9 +42,11 @@ Below are the steps to use the application.
  <img src="/assets/images/projects/pdf-metadata-check.PNG" alt="pdf-metadata-addition" style=" height=2%; width=2%; display: block; margin-left: auto; margin-right: auto;"/><br>
 
 
-## Note
+#### Note
 * Download the zip file, extract it and retain the img folder. Do not delete or move, else this application will not work. This is a limitation of tKinter package in Python.
-* This file contains a .exe file so few of the antivirus might identify it as a virus. If downloaded from this source, this is not a virus.
 
-## Developer Info
+#### Developer Info
 This Application is created in python using PyPDF2 and tKinter Package (for GUI).
+
+#### Source Code
+[Click Here](!https://github.com/ashishkr568/pdf-metadata-addition) to go to the source code.
