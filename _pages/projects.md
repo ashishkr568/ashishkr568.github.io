@@ -16,8 +16,6 @@ author_profile: true
 This space contains details of some of the projects I have worked on to keep myself updated or to automate repetitive manual tasks. All codes are available on my <a href="https://github.com/ashishkr568">GitHub</a> repository.
 <p>
 
-Soon, I will start adding their details over here.
-
 <style>
 
 
