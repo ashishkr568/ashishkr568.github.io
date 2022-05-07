@@ -24,7 +24,8 @@ Based on my discussion with him I thought of creating a python based program whi
 This tool contains a GUI and can be updated based on the requirement. Currently, 4 fields can be updated (Name, Date, Job Location and Position) but, one can add more fields as per their requirement by editing the python code.
 
 You can download the executable (.exe) version of this tool by clicking the below link.
-Download Cover Letter Generator.
+
+Download [Cover Letter Generator](https://github.com/ashishkr568/cover-letter-generator/blob/main/Cover_Letter_Generator.zip)
 
 Below is the screenshot of the Application.
 
