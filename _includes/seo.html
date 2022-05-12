@@ -75,7 +75,7 @@
 {% if page.title == 'About Me' %}
   <meta property="og:title" content="{{ site.title }}">
 {% else %}
-  <meta property="og:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
+  <meta property="og:title" content="{{ page.title }} | {{ site.title }}">
 {% endif %}
 
 <meta property="og:url" content="{{ canonical_url }}">
