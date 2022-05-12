@@ -2,7 +2,7 @@
 layout: single  
 classes: wide  
 title: Are error metrics and loss the same during model training? 
-date: 2022-05-07 11:55:00 +05:30  
+date: 2022-05-12 11:00:00 +05:30  
 header:  
   teaser: assets/images/blog/error-metric.jpg  
   caption: Image Credits Unsplash  
@@ -17,8 +17,12 @@ tags:
  - sgd
 ---  
 <img src="/assets/images/blog/error-metric.jpg" alt="error metric vs loss" style="width:10%, height:10%; display: block; margin-left: auto; margin-right: auto;"/>  
-<br>There is an important distinction between an error metric and a loss function. The entire purpose of loss is to define a "measure of performance" that a training system can use to update the weights automatically. 
+<br>A "Loss" and "Metric" are the 2 things which we look at the end of each epoch[^1] to check the performance of a model. These are very closely related but are not exactly the same. Let's look at their significance.
 
-In other words, a good choice for loss is the one which is better for Stochastic Gradient Descend(SGD) to use. But an error metric is for human consumption and is easier for humans to understand. An example of an error metric is error rate and accuracy (which is 1-error rate), these tell us what percentage of data in the validation set are classified correctly.
+There is an important distinction between an error metric and a loss function. A Metric is a function that measures the quality of the prediction using the validation set and it is printed at the end of each epoch. A common type of metric is error metric and accuracy (which is 1-error metric). However, the entire purpose of loss is to define a "measure of performance" that a training system can use to update the weights automatically. 
 
->Loss is for machine consumption and an error metric is for human consumption and let's not consider loss as a suitable metric and keep both of them separate.
+If we do a slight change in the parameters(weights) of a loss function, we might see how loss varies or a set of parameters which improves or deteriorates the model performance but this change in parameters can be so little that it might not change our predictions and due to this error rate does not change. But our model can use this information to improve model performance.
+
+>So loss and metric are closely related but the metric is the thing that is for human consumption and is easier for humans to understand and loss is something which our computer is using as a performance of measurement which our computer will be using to decide how to update the parameters.
+
+[^1]:An Epoch is an event when our model has looked at each of the data points in the training set once.
