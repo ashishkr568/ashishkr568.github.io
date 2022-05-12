@@ -23,6 +23,6 @@ There is an important distinction between an error metric and a loss function. A
 
 If we do a slight change in the parameters(weights) of a loss function, we might see how loss varies or a set of parameters which improves or deteriorates the model performance but this change in parameters can be so little that it might not change our predictions and due to this error rate does not change. But our model can use this information to improve model performance.
 
->So loss and metric are closely related but the metric is the thing that is for human consumption and is easier for humans to understand and loss is something which our computer is using as a performance of measurement which our computer will be using to decide how to update the parameters.
+>loss and metric are closely related but metric is for human consumption as it is easier for humans to understand the model's performance and loss is something which our computer uses, to measure the model's performance and decide on updating the parameters.
 
 [^1]:An Epoch is an event when our model has looked at each of the data points in the training set once.
