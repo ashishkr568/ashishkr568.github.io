@@ -12,9 +12,8 @@ tags:
  - machine learning  
  - deep learning   
  - artificial intelligence 
- - image classification
- - image identification
- - resnet
+ - training loss
+ - validation loss
 ---  
 <img src="/assets/images/blog/overfit-image.png" alt="overfit-image-quora.png" style="width:10%, height:10%; display: block; margin-left: auto; margin-right: auto;"/>  
 <br>As a standard practice, we hold 20% of the data points to be used for model validation, this data is referred to as a validation set. The other 80% of the data is used for training the model.

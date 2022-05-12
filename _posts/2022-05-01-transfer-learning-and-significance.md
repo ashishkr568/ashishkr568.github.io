@@ -14,6 +14,8 @@ tags:
  - artificial intelligence 
  - image classification
  - image identification
+ - transfer learning
+ - fine tuning
  - resnet
 ---  
 <img src="/assets/images/blog/transfer-learning.jpg" alt="transfer-learning.jpg" style="width:10%, height:10%; display: block; margin-left: auto; margin-right: auto;"/>  
