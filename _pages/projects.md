@@ -11,8 +11,10 @@ author_profile: true
 This space contains details of some of the projects I have worked on to keep myself updated or to automate repetitive manual tasks. All codes are available on my <a href="https://github.com/ashishkr568">GitHub</a> repository.
 <p>
 
+{% assign projects = site.projects | sort: 'date' | reverse %}
+
 <div class="pgrid">
- {% for post in site.projects %}
+ {% for post in projects %}
   {% include projects-grid.html %}
 {% endfor %}
 </div>

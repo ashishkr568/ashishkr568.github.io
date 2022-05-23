@@ -1,7 +1,7 @@
 /* CSS Used on the Project Tab */
 .pgrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   grid-auto-rows: 9em;
   gap: 2em;
 }
@@ -33,7 +33,7 @@ width: 100%;
 height: 100%;
 left: 50%;
 top: 50%;
-opacity: 0.5 !important;
+opacity: 0.6 !important;
 border-radius: 0px !important;
 -webkit-transform:translate(-50%, -50%);
 -moz-transform:translate(-50%, -50%);
