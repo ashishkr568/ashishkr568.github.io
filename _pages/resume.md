@@ -2,7 +2,7 @@
 title: Resume
 permalink: /resume/
 date: 2022-04-21 04:47:00 +05:30
-last_modified_at: 2022-04-30 03:30:00 +05:30
+last_modified_at: 2022-05-23 17:51:00 +05:30
 layout: single
 author_profile: true
 toc: true
@@ -13,7 +13,7 @@ toc_sticky: true
 This section contains details about my professional experience ([click here](/projects/) for details about my personal projects). If you want to download a concise version of my resume please [Click Here](/pdf/Ashish_Data_Scientist.pdf).
 
 ### <u>SUMMARY</u>
-Hi! My name is Ashish. I am a Data Scientist with 10+ years of experience in providing insightful data-driven solutions to customers in multiple domains such as energy, media, networking, healthcare and construction.  These end to end solutions includes data mining, ETL tasks, data exploration/visualization, predictive modelling (using statistical methods and machine learning algorithms), model deployment and its maintenance/retraining. 
+Hi! My name is Ashish. I am a Data Scientist with 10+ years of experience in providing insightful data-driven solutions to customers in multiple domains such as energy, media, networking, healthcare and construction.  These end-to-end solutions include data mining, ETL tasks, data exploration/visualization, predictive modelling (using statistical methods and machine learning algorithms) and model maintenance/retraining. I also love to share my knowledge through [blogs](/blog) and [personal projects](/projects). 
 
 A few of my key project includes:
 
@@ -272,7 +272,7 @@ Develop a chatbot to answer queries related to credit insurance to reduce load o
   </tr>
   <tr>
     <td class="tg-0lax">Data Science Libraries</td>
-    <td class="tg-0lax">Pandas | Numpy | Matplotlib | Seaborn | Scikit-learn |NLTK | Tensorflow | Keras | Vader | Tkinter (GUI) | pyPDF2 | Dask</td>
+    <td class="tg-0lax">Pandas | Numpy | Matplotlib | Seaborn | Scikit-learn | NLTK | PyTorch | Fastai | Vader | Tkinter (GUI) | pyPDF2 | Dask</td>
   </tr>
   <tr>
     <td class="tg-0lax">Web Development</td>
