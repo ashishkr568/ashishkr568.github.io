@@ -26,7 +26,7 @@ tags:
  - transfer learning
 ---
 Programming Language : ![Programming Language](https://img.shields.io/badge/Python-100%25-%233DA639)<br>
-<br><img src="/assets/images/projects/gtsr-img.JPG" alt="gtsr" style=" height=2%; width=2%; display: block; margin-left: auto; margin-right: auto;"/><br>
+<br><img src="/assets/images/projects/gtsr-img.jpg" alt="gtsr" style=" height=2%; width=2%; display: block; margin-left: auto; margin-right: auto;"/><br>
 Object **detection** and its **classification** plays a major role in self-driving vehicles. In this project, we will try to classify traffic signs. We will look at object (traffic sign) detection in some other project and then try to combine both of them.
 
 The purpose of this project is to:
@@ -70,7 +70,7 @@ Now Let's check what we have in test set. The numbers on the x-axis and y-axis r
 
 Below is the class distribution of images. This is highly imbalanced data. We will first create our model on this data, check its performance, and then we will look at the class imbalance(if required).
 
-<img src="/assets/images/projects/gtsr-class-distribution.JPG" alt="gtsr-class-distribution" style=" height=2%; width=2%; display: block; margin-left: auto; margin-right: auto;"/><br>
+<img src="/assets/images/projects/gtsr-class-distribution.jpg" alt="gtsr-class-distribution" style=" height=2%; width=2%; display: block; margin-left: auto; margin-right: auto;"/><br>
 
 ### Train Classifier
 We will use Convolutional Neural Network (CNN) classifier to train our model. There is no point in training the model from scratch, so we will use a pre-trained architecture (resnet34) and use transfer learning capabilities. I wrote an article on [transfer learning](/blog/2022/05/02/transfer-learning-and-significance/), do have a look.
