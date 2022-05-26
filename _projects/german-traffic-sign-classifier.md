@@ -77,7 +77,7 @@ We will use Convolutional Neural Network (CNN) classifier to train our model. Th
 
 The notebook used for training our classifier can be found [here](https://github.com/ashishkr568/gtsr/blob/main/2_gtsr_eda_train_classifier.ipynb).
 
-We considered 20% of the data for the validation set and fine-tuned the model for 15 epochs. Below are the results on the training set.
+We considered 20% of the data for the validation set and fine-tuned the model for 15 epochs. Below are the results on the validation set.
 
 <img src="/assets/images/projects/gtsr-error-metric.JPG" alt="gtsr-error-metric" style=" height=2%; width=2%; display: block; margin-left: auto; margin-right: auto;"/><br>
 
