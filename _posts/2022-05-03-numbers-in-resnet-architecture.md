@@ -2,7 +2,7 @@
 layout: single  
 classes: wide  
 title: What are the numbers at the end of ResNet Architecture and does it have any significance on model performance and overfitting? 
-date: 2022-05-06 12:30:00 +05:30  
+date: 2022-05-03 12:30:00 +05:30  
 header:  
   teaser: assets/images/blog/numbers-in-resnet.jpg 
   caption: Image Credits Unsplash  

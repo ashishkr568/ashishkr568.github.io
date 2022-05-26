@@ -2,7 +2,7 @@
 layout: single  
 classes: wide  
 title: How do you know that your model is overfitting just by seeing the training and validation loss? 
-date: 2022-05-06 17:30:00 +05:30  
+date: 2022-05-04 17:30:00 +05:30  
 header:  
   teaser: assets/images/blog/overfit-image.png 
   caption: Image Credits Unsplash  

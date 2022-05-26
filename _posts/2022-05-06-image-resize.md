@@ -1,8 +1,8 @@
 ---  
 layout: single  
 classes: wide  
-title: Why it is advised to resize an image to 224 pixels while dealing with images in deep learning and what would happen if we increase or decrease the pixel size? 
-date: 2022-05-07 10:00:00 +05:30  
+title: 224px image size in computer vision and its significance
+date: 2022-05-06 10:00:00 +05:30  
 header:  
   teaser: assets/images/blog/image-resize.png  
   caption: Image Credits Unsplash  

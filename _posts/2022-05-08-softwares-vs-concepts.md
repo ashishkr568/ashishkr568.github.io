@@ -2,7 +2,7 @@
 layout: single  
 classes: wide  
 title: Worry about the concepts and techniques and not about the libraries or software used? 
-date: 2022-05-07 10:38:00 +05:30  
+date: 2022-05-08 10:38:00 +05:30  
 header:  
   teaser: assets/images/blog/concept-tools.jpg  
   caption: Image Credits Unsplash  
