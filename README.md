@@ -61,6 +61,7 @@ Some of the icons and images come from the following sites:
 - [The Noun Project][TheNounProject] - Icons for everything. 
 - [Font Awesome][FontAwesome] - Vector icons and social logos.
 - [Unsplash][] - Free images. 
+-  [StackEdit](https://stackedit.io/) - Markdown Editor.
 
 ## Issues
 
